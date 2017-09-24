@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS1_1_tasksIF</title>
+</head>
+<body>
+
+<h4>Task 1</h4>
+	<p>Please, enter your year of birth: </p>
+	<input type="text" size="8" id="yearOfBirth" placeholder="Year of birth">
+	<button onclick="calculateAge()">Try it</button>
+	<p id="resultTask1">.</p>
+
+<h4>Task 2</h4>
+	<p>What number is bigger:</p>
+	<input type="text" id="numberOne" size="8" placeholder="NumberOne" > 
+	<input type="text" id="numberTwo" size="8" placeholder="NumberTwo"> 
+
+	<button onclick="calculateTask2()" style="width:auto" >Comapare numbers</button>
+	<p id="resultTask2">.</p>
+
+
+<h4>Task 3</h4>
+
+	<p>The first entrance of the house consist 1..20 appartments. The second 21..64. The third 65..80</p>
+	<p>Enter a number of the appartment in order to get number of entrance</p>
+
+	<input type="text" id="numberOfAppartment" placeholder="Number of appartment">
+	<button onclick="task3Appartment()" style="width: auto;"> OK </button>
+	<p id="resultAppartment">.</p>
+
+<h4>Task 4</h4>
+
+	<p>Secret info. There are 3 users (ivan ->  333; ssss-> 666; gibs ->0000)</p>
+
+	<p>Login: <input type="text" id="login" placeholder="login"> </p>
+	<p>Password:<input type="password" id="password" placeholder="password">
+	<button onclick="task4Login()" style="width: auto;"> Enter </button></p>
+	<p id="result4Login">.</p>
+	
+
+<h4>Task 5</h4>
+
+	<p>Please, enter three numbers, we calculate the biggest one:</p>
+	<input type="text" id="number1Task5" style="width:60px" placeholder="Number 1">
+	<input type="text" id="number2Task5" style="width:60px" placeholder="Number 2">
+	<input type="text" id="number3Task5" style="width:60px" placeholder="Number 3">
+	<button onclick="task5Max()" style="width: auto;"> Max </button></p>
+	<p id="result5Max">.</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
