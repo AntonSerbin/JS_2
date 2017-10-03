@@ -24,14 +24,14 @@ function task3Sum() {
 function task4Power() {
 	var a=document.getElementById("number").value;
 	var b=document.getElementById("power").value;
-	var resultTask4=a;
-	for (var i=2; i<=b; i++) {
- 	resultTask4=a*resultTask4;
-			}
-	if (b%1>0) {resultTask4= "Please, enter integer number in power form"};
-	if (b<0.001) {resultTask4=1;};
-	if (b<0) {resultTask4= "Please, enter possitive number in power form"};
-
+	// var resultTask4=a;
+	// for (var i=2; i<=b; i++) {
+ 	// resultTask4=a*resultTask4;
+	// 		}
+	// if (b%1>0) {resultTask4= "Please, enter integer number in power form"};
+	// if (b<0.001) {resultTask4=1;};
+	// if (b<0) {resultTask4= "Please, enter possitive number in power form"};
+	var resultTask4=Math.pow(a, b);
 	document.getElementById("result4Power").innerHTML = resultTask4;
 }
 
