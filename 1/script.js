@@ -8,11 +8,11 @@ function calculateAge() {
 
 function calculateTask2() {
 
-	var a=document.getElementById("numberOne").value;
-	var b=document.getElementById("numberTwo").value;
+	var a=parseInt(document.getElementById("numberOne").value);
+	var b=+document.getElementById("numberTwo").value;
 	var resultTask2;
-	if (a>b) {resultTask2= "Fist number is bigger then second"; }
-		else if (a<b) {resultTask2= "Second number is bigger then first"}
+	if (a>b) {resultTask2= "The fist number is bigger then second"; }
+		else if (a<b) {resultTask2= "The second number is bigger then first"}
 			else {resultTask2 = "Numbers are equal"};
 	document.getElementById("resultTask2").innerHTML = resultTask2;
 }
